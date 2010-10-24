@@ -1,0 +1,144 @@
+/*
+Theme Name: next practice
+Theme URI: http://blog.atosorigin.com
+Description: Theme for the next practice institure at AO
+Author: simondelliott
+Version: 1.0
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+    line-height: 1;
+    font-family:sans-serif;
+    color: #4a521b;
+    font-size: small;
+}
+
+root {
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: #4a521b;
+}
+
+a:hover{
+    background-color: #4a521b;
+    color: #e3e9c6;
+}
+
+
+div#contents{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -425px;
+    height: 690px;
+    width: 850px;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+div#page_contents{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -425px;
+    width: 850px;
+    padding-left: 25px;
+}
+div#page_banner{
+    height:50px;
+    border-bottom: 2px solid #4a521b;
+    margin-bottom: 20px;
+}
+div#page_banner #title{
+    padding-left: 130px;
+    display: block;
+}
+
+div#page_banner #logo{
+    background-image: url(logo.png);
+    width:100px;
+    height:50px;
+    display: inline;
+    float: left;
+}
+
+#left_column{
+    width: 100px;
+    height: 100%;
+    display: block;
+    float: left;
+}
+
+#middle_column{
+    width: 600px;
+    height: 100%;
+    display: block;
+    float: left;
+}
+
+#right_column{
+    width: 150px;
+    float: right;
+}
+
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cell{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.text p{
+    font-size: xx-small;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#footer{
+    width: 850px;
+    height: 40px;
+    float: left;
+    color: #cccebf;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: large;
+}
+
+.menu ul{
+    list-style:none;
+    padding-left: 10px;
+    margin-top: 42px;
+    width: 100%;
+    text-align: left;
+}
