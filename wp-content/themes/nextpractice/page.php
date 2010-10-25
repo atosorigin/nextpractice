@@ -4,7 +4,7 @@ get_header();
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 <div id="page_contents">
     <div id="page_banner">
-        <div id="logo"></div>
+        <div id="logo" onclick="location.href='/'"></div>
         <div id="title">
             <h1 class="entry-title"><?php the_title(); ?></h1>
         </div>
@@ -23,15 +23,17 @@ get_header();
         </div>
     </div>
     <div id="right_column">
-          <?php wp_list_pages('child_of='.get_the_ID().'&title_li=<h5>'.__('Pages').'</h5>'); ?>
+        <ul>
+          <?php wp_list_pages('child_of=7&title_li='); ?>
+        </ul>
     </div>
 
-    <div id="footer">
-        <?php wp_nav_menu( array('container' => '', 'depth' => 1) ) ?>
+    <div id="footer" class="page_footer">
+        <?php wp_nav_menu( array('depth' => 1, 'menu_class' => 'footer_menu') ) ?>
     </div>
 
     <?php //comments_template( '', true ); ?>
-<?php endwhile; ?>
 </div>
+<?php endwhile; ?>
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>
