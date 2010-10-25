@@ -24,7 +24,7 @@ get_header();
     </div>
     <div id="right_column">
         <ul>
-          <?php wp_list_pages('child_of=7&title_li='); ?>
+          <?php wp_list_pages('child_of=2&title_li='); ?>
         </ul>
     </div>
 
