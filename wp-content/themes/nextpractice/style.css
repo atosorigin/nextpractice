@@ -47,7 +47,7 @@ a:hover{
 
 div#contents{
     position: absolute;
-    top: 80px;
+    top: 20px;
     left: 50%;
     margin-left: -425px;
     height: 690px;
