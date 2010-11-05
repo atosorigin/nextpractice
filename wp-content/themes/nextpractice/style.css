@@ -97,6 +97,9 @@ div#page_banner #logo{
     display: block;
     float: left;
 }
+#middle_column ul{
+    margin-left: 20px;
+}
 
 #right_column{
     width: 170px;
