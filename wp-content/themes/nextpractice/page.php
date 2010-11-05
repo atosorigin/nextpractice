@@ -29,7 +29,7 @@ get_header();
     </div>
 
     <div id="footer" class="page_footer">
-        <?php wp_nav_menu( array('depth' => 1, 'menu_class' => 'footer_menu') ) ?>
+        <?php wp_nav_menu( array('depth' => 1, 'menu_class' => 'footer_menu', 'menu_class'      => '',) ) ?>
     </div>
 
     <?php //comments_template( '', true ); ?>

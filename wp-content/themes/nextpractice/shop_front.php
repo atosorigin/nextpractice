@@ -28,7 +28,7 @@ get_header(); ?>
           </div>
 
           <div class="cell"></div>
-          <div class="cell clickable" onclick="location.href='/operations/'"></div>
+          <div class="cell clickable" onclick="location.href='/business-strategy/'"></div>
           <div class="cell"></div>
           <div class="cell text">
               <p>
