@@ -140,13 +140,13 @@ p{
 }
 
 #footer{
-    width: 850px;
+    width: 820px;
     height: 40px;
     float: left;
     color: #cccebf;
     padding-top: 20px;
-    padding-left: 10px;
     font-size: small;
+    text-align: center;
 }
 .page_footer{
     border-top: 2px solid #4a521b;
@@ -156,7 +156,7 @@ p{
 .menu ul{
     list-style:none;
     padding-left: 10px;
-    margin-top: 42px;
+    margin-top: 62px;
     width: 100%;
     text-align: left;
 }
